@@ -64,7 +64,7 @@ button{
 }
 
 /* HEADER */
-#header-section{
+.header-section{
     padding: 40px 0 107px;
 }
 .header{
@@ -129,7 +129,7 @@ button{
 }
 
 /* BANNER */
-#banner-secrtion{
+.banner-secrtion{
     padding: 60px;
 }
 .banner{
@@ -166,7 +166,7 @@ button{
 }
 
 /* RENT */
-#rent-section{
+.rent-section{
     padding: 120px 0 120px;
 }
 .rent-wrap{
@@ -220,7 +220,7 @@ button{
     width: 8px;
     height: 16px;
     transform: translateY(-50%);
-    background: url(images/Vector\ 1.png) 50%/cover no-repeat;
+    background: url(images/Vector_1.png) 50%/cover no-repeat;
 }
 
 @media screen and (max-width:650px){
@@ -233,7 +233,7 @@ button{
 }
 
 /* SERVICES */
-#ervices-section{
+.ervices-section{
     padding-bottom: 120px;
 }
 .services-section_title{
@@ -255,7 +255,7 @@ button{
 
 
 /* DESTINATION */
-#destination-section{
+.destination-section{
     padding-bottom: 120px;
 }
 .destination-section_title{
@@ -349,7 +349,7 @@ button{
 
 
 /* FOOTER */
-#footer-section{
+.footer-section{
     padding-top: 40px;
     background-color: #1F1905;
 }
@@ -400,7 +400,7 @@ button{
     width: 120px;
     height: 30px;
     margin-bottom: 45px;
-    background: url(images/image\ facebook.png) 50%/cover no-repeat;
+    background: url(images/imageFacebook.png) 50%/cover no-repeat;
 }
 .footer-copyright{
     padding: 20px 0;
@@ -431,7 +431,7 @@ button{
         width: 75px;
         height: 30px;
         margin-bottom: 45px;
-        background: url(images/image\ facebook.png) 50%/cover no-repeat;
+        background: url(images/imageFacebook.png) 50%/cover no-repeat;
     }
 }
 
@@ -491,7 +491,7 @@ button{
     width: 120px;
     height: 30px;
     margin-bottom: 45px;
-    background: url(images/image\ facebook.png) 50%/cover no-repeat;
+    background: url(images/imageFacebook.png) 50%/cover no-repeat;
 }
 .footer-social_grid{
     margin-top: 15px;
@@ -499,6 +499,9 @@ button{
 }
 
 @media screen and (max-width:650px){
+    .footer-nav-wrap_grid{
+        gap: 10px;
+    }
     .footer-nav_header_grid{
         margin-bottom: 32px;
         font-size: 16px;
@@ -509,7 +512,7 @@ button{
         width: 75px;
         height: 30px;
         margin-bottom: 45px;
-        background: url(images/image\ facebook.png) 50%/cover no-repeat;
+        background: url(images/imageFacebook.png) 50%/cover no-repeat;
     }
     .footer-social_grid{
         margin-top: 15px;

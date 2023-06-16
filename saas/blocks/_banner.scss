@@ -1,0 +1,36 @@
+.banner-secrtion{
+    padding: 60px;
+}
+.banner{
+    max-width: 500px;
+    .banner_header{
+        font-size: 52px;
+        line-height: 64px;
+        letter-spacing: 0.6px;
+    }
+}
+
+.banner_text{
+    margin: 32px 0 48px;
+    font-size: 17px;
+    color: white;
+}
+.banner-links-wrap{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    margin-bottom: 40px;
+}
+.banner-features_text{
+    font-weight: 600;
+    line-height: 24px;
+}
+.banner-features_text:first-child{
+        margin-right: 40px;
+}
+.banner-features_text_strong{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    margin-right: 16px;
+}

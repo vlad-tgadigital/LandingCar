@@ -1,0 +1,39 @@
+/* DESTINATION GRID */
+.destination-wrap_grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+
+    .destination_grid{
+        border: 1px solid #171717;
+        background-color: #171717;
+        overflow: hidden;
+
+        .destination-info_grid{
+            padding: 24px;
+
+            .destination_img_grid:hover{
+                transition:all 0.5s ease;
+                transform: scale(1.25);
+            }
+            .destination_img_grid_first:hover{
+                transition:all 0.5s ease;
+                transform: scaleX(1.25);
+            }
+            .destination_img_grid_second:hover{
+                transition:all 0.5s ease;
+                transform: translate(50px, 50px);
+            }
+            .destination_img_grid_four:hover{
+                transition:all 0.5s ease;
+                transform: rotate(10deg) scale(1.2) translate(50px, 50px) skew(10deg);
+            }
+        }
+    }
+    .destination_grid:nth-child(2){
+        overflow:visible;
+    }
+    .destination_grid:nth-child(4){
+        overflow:visible;
+    }   
+}

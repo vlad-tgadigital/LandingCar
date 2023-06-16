@@ -1,0 +1,92 @@
+/* FOOTER GRID */
+.footer-section_grid{
+    background-color: #1F1905;
+}
+.footer_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 40px 0 65px 0;
+
+    .footer-about_grid{
+        display: inline-block;
+
+        .footer-logo-wrap_grid{
+            display: inline-grid;
+            grid-template-columns: auto auto;
+            margin-bottom: 64px;
+        }
+        .footer-about_header_grid{
+            justify-self: start;
+            align-self: center;
+            margin-left: 17px;
+        }
+        .footer-about_text_grid{
+            max-width: 235px;
+            font-size: 18px;
+            line-height: 32px;
+        }
+    }
+
+    .footer-nav-wrap_grid{
+        display: grid;
+        grid-template-columns: 1fr auto auto auto;
+        grid-auto-flow: row;
+        justify-items: end;
+        align-items: center;
+        justify-content: space-between;
+        gap:45px;
+
+        .footer-nav_header_grid{
+            margin-bottom: 32px;
+        }
+        .footeer-nav_list_grid{
+            justify-self: start;
+
+            .footer-nav_item_grid{
+                margin-bottom: 28px;
+                line-height: 20px;
+                
+                .footer-nav_link_grid:hover{
+                    color: #EE8313;
+                }
+            }
+        }
+        .footer-social_grid{
+            margin-top: 15px;
+            margin-left: 50px;
+
+            .footer-social_link_grid{
+                display: block;
+                width: 120px;
+                height: 30px;
+                margin-bottom: 45px;
+                background: url('./../images/imageFacebook.png') 50%/cover no-repeat;
+            }
+        }
+        
+    }
+}
+
+@media screen and (max-width:650px){
+    .footer-nav-wrap_grid{
+        gap: 10px;
+
+        .footer-nav_header_grid{
+            margin-bottom: 32px;
+            font-size: 16px;
+            line-height: 20px;
+        }
+        .footer-social_grid{
+            margin-top: 15px;
+            margin-left: 10px;
+
+            .footer-social_link_grid{
+                display: block;
+                width: 75px;
+                height: 30px;
+                margin-bottom: 45px;
+                background: url('./../images/imageFacebook.png') 50%/cover no-repeat;
+            }
+        }
+    }
+}

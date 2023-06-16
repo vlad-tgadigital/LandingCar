@@ -1,0 +1,66 @@
+/* RENT */
+.rent-section{
+    padding: 120px 0 120px;
+}
+.rent-wrap{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+}
+.rent{
+    position: relative;
+    height: 524px;
+    font-weight: 600;
+    background: url('./../images/MaskRed.png') 50%/cover  no-repeat;
+    
+}
+.rent:hover{
+    transition:all 1s ease;
+    transform: scale(1.05);
+}
+.rent:nth-child(2){
+    background-image: url('./../images/MaskBlackSport.png');
+}
+.rent:nth-child(3){
+    background-image: url('./../images/MaskBlackJeep.png');
+}
+.rent:nth-child(4){
+    background-image: url('./../images/MaskWhiteJeep.png');
+}
+.rent_name{
+    position: absolute;
+    top:48px;
+    left: 48px;
+    font-size: 40px;
+    letter-spacing: 0.6px;
+}
+.rent_link{
+    position: absolute;
+    bottom: 48px;
+    right: 60px;
+    padding-right: 30px;
+    font-size: 24px;
+    letter-spacing: 0.6px;
+}
+.rent_link:hover{
+    color:#FFCC2C;
+}
+.rent_link::after{
+    position: absolute;
+    content: '';
+    top: 50%;
+    right: 0;
+    width: 8px;
+    height: 16px;
+    transform: translateY(-50%);
+    background: url('./../images/Vector_1.png') 50%/cover no-repeat;
+}
+
+@media screen and (max-width:650px){
+
+    .rent-wrap{
+        display: grid;
+        grid-template-columns: none;
+        gap: 10px;
+    }
+}
