@@ -15,12 +15,12 @@
             grid-template-columns: auto auto;
             margin-bottom: 64px;
         }
-        .footer-about_header_grid{
+        &_header_grid{
             justify-self: start;
             align-self: center;
             margin-left: 17px;
         }
-        .footer-about_text_grid{
+        &_text_grid{
             max-width: 235px;
             font-size: 18px;
             line-height: 32px;
@@ -55,7 +55,7 @@
             margin-top: 15px;
             margin-left: 50px;
 
-            .footer-social_link_grid{
+            &_link_grid{
                 display: block;
                 width: 120px;
                 height: 30px;
@@ -80,7 +80,7 @@
             margin-top: 15px;
             margin-left: 10px;
 
-            .footer-social_link_grid{
+            &_link_grid{
                 display: block;
                 width: 75px;
                 height: 30px;
